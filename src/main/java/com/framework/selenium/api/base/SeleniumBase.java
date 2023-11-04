@@ -606,7 +606,7 @@ public class SeleniumBase extends Reporter implements Browser, Element  {
 	public void startApp(String browser, boolean headless, String url) {
 		try {
 			if (browser.equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.silentOutput", "true");
+				//System.setProperty("webdriver.chrome.silentOutput", "true");
 				setDriver("chrome", headless);
 			} else if (browser.equalsIgnoreCase("firefox")) {
 				setDriver("firefox", headless);

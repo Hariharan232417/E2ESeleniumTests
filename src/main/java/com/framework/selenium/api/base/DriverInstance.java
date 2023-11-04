@@ -31,7 +31,7 @@ public class DriverInstance {
 			chrome_options.addArguments("--no-sandbox"); 
 			chrome_options.addArguments("--disable-dev-shm-usage"); 
 			chrome_options.addArguments("--disable-notifications"); 
-			chrome_options.addArguments("--headless");
+			//chrome_options.addArguments("--headless");
 			remoteWebdriver.set(new RemoteWebDriver(new URL("http://"+ConfigurationManager.configuration().gridUrl()+":"+ConfigurationManager.configuration().gridPort()+"/wd/hub"), chrome_options));
 			break;
 		case "firefox":

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-04T10:32:05 IST" name="Suite" finished-at="2023-11-04T10:32:21 IST" duration-ms="16331">
+  <suite started-at="2023-11-04T15:32:40 IST" name="Suite" finished-at="2023-11-04T15:32:58 IST" duration-ms="17935">
     <groups>
     </groups>
-    <test started-at="2023-11-04T10:32:05 IST" name="chrome" finished-at="2023-11-04T10:32:21 IST" duration-ms="16331">
+    <test started-at="2023-11-04T15:32:40 IST" name="chrome" finished-at="2023-11-04T15:32:58 IST" duration-ms="17935">
       <class name="com.pos.testcases.CreateNewVendor">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T10:32:05 IST" name="startReport" finished-at="2023-11-04T10:32:05 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T15:32:39 IST" name="startReport" finished-at="2023-11-04T15:32:40 IST" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setValues()[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T10:32:05 IST" name="setValues" finished-at="2023-11-04T10:32:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T15:32:40 IST" name="setValues" finished-at="2023-11-04T15:32:40 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValues -->
-        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T10:32:05 IST" name="startTestCase" finished-at="2023-11-04T10:32:05 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T15:32:40 IST" name="startTestCase" finished-at="2023-11-04T15:32:40 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestCase -->
-        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T10:32:06 IST" name="preCondition" finished-at="2023-11-04T10:32:10 IST" duration-ms="3956" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T15:32:40 IST" name="preCondition" finished-at="2023-11-04T15:32:44 IST" duration-ms="3474" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="runLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T10:32:10 IST" name="runLogin" data-provider="fetchData" finished-at="2023-11-04T10:32:21 IST" duration-ms="10607" status="FAIL">
+        <test-method signature="runLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T15:32:44 IST" name="runLogin" data-provider="fetchData" finished-at="2023-11-04T15:32:57 IST" duration-ms="13736" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -72,9 +72,8 @@
 at com.framework.utils.Reporter.reportStep(Reporter.java:101)
 at com.framework.utils.Reporter.reportStep(Reporter.java:116)
 at com.framework.selenium.api.base.SeleniumBase.locateElement(SeleniumBase.java:657)
-at com.pos.pages.LoginPage.enterUserName(LoginPage.java:9)
-at com.pos.pages.LoginPage.login(LoginPage.java:27)
-at com.pos.testcases.CreateNewVendor.runLogin(CreateNewVendor.java:25)
+at com.pos.pages.PointOfSalePage.clickVendorsMenu(PointOfSalePage.java:14)
+at com.pos.testcases.CreateNewVendor.runLogin(CreateNewVendor.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -96,11 +95,11 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runLogin -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T10:32:21 IST" name="postCondition" finished-at="2023-11-04T10:32:21 IST" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T15:32:57 IST" name="postCondition" finished-at="2023-11-04T15:32:58 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="endResult()[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T10:32:21 IST" name="endResult" finished-at="2023-11-04T10:32:23 IST" duration-ms="1840" status="PASS">
+        <test-method is-config="true" signature="endResult()[pri:0, instance:com.pos.testcases.CreateNewVendor@3b0fe47a]" started-at="2023-11-04T15:32:58 IST" name="endResult" finished-at="2023-11-04T15:32:58 IST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endResult -->
