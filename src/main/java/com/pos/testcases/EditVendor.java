@@ -17,7 +17,7 @@ public class EditVendor extends ProjectSpecificMethods{
 		excelFileName="EditVendor";
 	}
 	
-	@Test(dataProvider = "fetchData")
+	@Test(dataProvider = "fetchData",dependsOnMethods = "CreateNewVendor.runLogin")
 	public void runLogin(String vendorId,String changeVendorName,String verifyPopup
 			,String vendorNameChanged) {
 		new LoginPage()
