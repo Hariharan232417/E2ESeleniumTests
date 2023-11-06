@@ -17,7 +17,7 @@ public class EditProduct extends ProjectSpecificMethods{
 		excelFileName="EditProduct";
 	}
 	
-	@Test(dataProvider = "fetchData",dependsOnMethods = "CreateNewProduct.runLogin")
+	@Test(dataProvider = "fetchData")
 	public void runLogin(String productId,String changeProductName,String verifyPopup
 			) {
 		new LoginPage()

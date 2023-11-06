@@ -17,7 +17,7 @@ public class DeleteVendor extends ProjectSpecificMethods{
 		excelFileName="DeleteVendor";
 	}
 	
-	@Test(dataProvider = "fetchData",dependsOnMethods = "EditVendor.runLogin")
+	@Test(dataProvider = "fetchData")
 	public void runLogin(
 			String vendorId,String deletePopup,
 			String verifyDeletePopup)

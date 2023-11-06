@@ -1,0 +1,6 @@
+# Created at 2023-11-06T22:02:53.031
+
+The following methods have cyclic dependencies:
+DeleteCustomer.runLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.pos.testcases.DeleteCustomer@771a660]
+
+
